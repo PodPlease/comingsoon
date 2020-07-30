@@ -47,9 +47,11 @@ label {
     width: 100%;
     background: #CFE7FF;
     max-width: 600px;
+    -webkit-appearance: none;
     color: #1F4770;
     border: none;
     outline: none;
+    border-radius: .25rem;
     padding: 0.5em;
     font-size: 1rem;
     line-height: 1.3;
