@@ -1,26 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    {% include partials/meta-info.html %}
-    <link rel="stylesheet" href="/assets/css/main.css">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+        {% include partials/meta-info.html %}
+        <link rel="stylesheet" href="/assets/css/main.css">
 
-</head>
+    </head>
 
-<body>
-    <div class="site-wrap">
+    <body>
+        <div class="site-wrap">
 
-        <main tabindex="-1" id="main-content">
-            <div class="logo">{%include blocks/logo.svg%}</div>
-            <h1>{{page.headline}}<span>{{page.body}}</span></h1>
-            <label for="mce-EMAIL">{{page.cta}}</label>
-            {%include blocks/subscription.html%}
-        </main>
+            <main tabindex="-1" id="main-content">
+                <div class="logo">{%include blocks/logo.svg%}</div>
+                <h1>{{page.headline}}
+                    <span>{{page.body}}</span></h1>
+                <p>{{page.cta}}</p>
+                {%include blocks/subscription.html%}
+            </main>
 
-    </div>
-</body>
+        </div>
+    </body>
 
 </html>
